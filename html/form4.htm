@@ -1,0 +1,210 @@
+
+<!DocType html>
+
+
+<html>
+
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="../css/form4.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+      
+ 
+        <title>Form</title>
+        <body>
+          
+          <body>
+            <div class="container">
+              <form class="signup" name="from" id="form">
+          
+          
+                <div class="header_div">
+                  <h1>Custmoer Details:</h1>
+                  <hr>
+                </div>
+                <div class="body_div">
+                  <div class="h_grp">
+          
+                    <h2 class="G_titles asterick">Full Name</h2>
+                    <div class="grp left">
+                      <input type="text" id="fname" name="fname" size="40%" class="form-input">
+                      <p id="p1"></p>
+                      <label for="fname">First Name</label>
+          
+                    </div>
+          
+                    <div class="grp right">
+                      <input type="text" id="lname" name="lname" size="40%" class="form-input">
+                      <p id="p2"></p>
+                      <label for="lname">Last Name</label>
+                    </div>
+                    <hr class="hiddenHr">
+                    <div class="a_grp">
+          
+                      <h2 class="G_titles asterick">Address</h2>
+                      <div class="f_grp">
+                        <input type="text" id="staddress" name="address1" size="40%" class="form-input">
+                        <p id="p3"></p>
+                        <label for="staddresss">Street Address</label>
+          
+                      </div>
+                      <div class="f_grp">
+                        <input type="text" id="staddress2" name="address2" size="40%" class="form-input">
+                        <p id="p4"></p>
+                        <label for="staddresss2">Street Address Line 2</label>
+                      </div>
+                      <div class="h_grp">
+                        <div class="grp left">
+                          <input type="text" id="city" name="city" size="40%" class="form-input">
+                          <p id="p5"></p>
+                          <label for="city">City</label>
+                        </div>
+          
+                        <div class="grp right">
+                          <input type="text" id="state" name="state" size="40%" class="form-input">
+                          <p id="p6"></p>
+                          <label for="state">State/Province</label>
+                        </div>
+          
+                        <div class="f_grp">
+                          <input type="text" id="zipcode" name="pin" size="40%" class="form-input" placeholder="(000) 000">
+                          <p id="p7"></p>
+                          <label for="zipcode">Postal/Zipcode</label>
+                        </div>
+                        <hr class="hiddenHr">
+                        <div class="h_grp">
+                          <h2 class="G_titles asterick">Phone number</h2>
+                          <div class="grp left">
+                            <input type="tel" id="phoneno" name="phone" size="40%" class="form-input"
+                              placeholder="(000) 0000-000">
+                            <p id="p8"></p>
+                            <label for="phoneno">(000) 0000-000</label>
+          
+          
+                          </div>
+                        </div>
+                        <hr class="hiddenHr">
+                        <div class="h_grp">
+                          <h2 class="G_titles">Email</h2>
+                          <div class="grp left">
+                            <input type="text" id="email" name="email" size="40%" class="form-input"
+                              mailto:placeholder="ex:email@yahoo.com">
+                            <p id="p9"></p>
+                            <label mailto:for="email">example@example.com</label>
+          
+                          </div>
+                        </div>
+          
+                        <hr class="hiddenHr">
+                        <div class="h_grp">
+                          <h2 class="G_titles">How did you here about us</h2>
+                          <div class="grp left">
+          
+                            <select name="foundus" id="foundus" class="form-input">
+                              <option value="magazine">Magazine</option>
+                              <option value="newspaper">Newspaper</option>
+                              <option value="social">Social-media</option>
+                              <option value="friend">Friend</option>
+                              <option value="other">Other</option>
+                            </select>
+          
+                          </div>
+          
+                        </div>
+          
+                        <hr class="hiddenHr">
+                        <div class="h_grp">
+          
+                          <h2 class="G_titles">Feedback about us</h2>
+                          <div class="f_grp">
+                            <textarea id="feedback" name="feedback" class="form-input t_area" rows="7"></textarea>
+                            <p id="p10"></p>
+          
+                          </div>
+          
+                          <hr class="hiddenHr">
+                          <div class="h_grp">
+          
+                            <h2 class="G_titles">Suggestion for any further imporovement</h2>
+                            <div class="f_grp">
+                              <textarea id="suggestion" name="suggestion" class="form-input t_area" rows="7"></textarea>
+                              <p id="p11"></p>
+          
+                            </div>
+          
+                            <hr class="hiddenHr">
+                            <div class="h_grp">
+          
+                              <div class="f_grp">
+                                <label class="r_check">Will you be willing to recommand us?<input type="checkbox" name="check"
+                                    id="check"></label>
+                              </div>
+          
+                              <hr class="hiddenHr">
+                              <hr class="hiddenHr">
+                              <hr class="hiddenHr">
+                          <div class="radio-container">
+                            <legend class="gender" name="Gender" id="Gender">
+                              Gender :
+                          
+                              <label for="male">Male</label>
+                              <input type="radio" id="male" name="gender" value="male">
+                          
+                              <label for="female">Female</label>
+                              <input type="radio" id="female" name="gender" value="Female">
+                          
+                              <label for="other"> Other</label>
+                              <input type="radio" id="other" name="gender" value="Other">
+                          
+                            </legend><br>
+                              <hr class="hiddenHr">
+                              <hr class="hiddenHr">
+                              <div class="h_grp">
+          
+                                <div class="f_grp">
+          
+                                  <hr class="hiddenHr">
+                                  <hr class="hiddenHr">
+          
+                                  <table>
+                                    <form>
+                                      <tr>
+                                        <th class="empty_row number"></th>
+                                        <th>Full Name</th>
+                                        <th>Address</th>
+                                        <th>Phone Number</th>
+                                      </tr>
+                                      <tr>
+                                        <td class="tfield">1</td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                      </tr>
+                                      <tr>
+                                        <td class="tfield">2</td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                        <td class="wtd"><input class="form-input t_input" type="text"></td>
+                                      </tr>
+                                    </form>
+                                  </table><br>
+                                </div>
+                                <hr class="hiddenHr">
+                              </div>
+                            </div>
+                          </div>
+          
+                        </div>
+                        <button type="submit" id="submit" value="Submit" class="submit_class">sumbit</button>
+                      </div>
+
+
+                      <script src="../jq/form4.js"></script>
+    </body>
+    <!-- <script>
+    $("#form").validate();
+    </script> -->
+</html>
